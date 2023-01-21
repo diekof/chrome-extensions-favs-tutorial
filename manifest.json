@@ -1,0 +1,17 @@
+{
+    "manifest_version":3,
+    "name":"Favs by @DiegoDonizete",
+    "description":"Salve seus links de maneir organizada com o Favs",
+    "version":"23.01.21",
+    "action":{
+        "default_icon":"assets/icon.png",
+        "default_popup":"index.hml"
+    },
+    "permissions":[
+        "tabs",
+        "storage"
+    ],
+    "host_permissions":[
+        "<all_urls>"
+    ]
+}
